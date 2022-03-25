@@ -1,4 +1,4 @@
-package com.tom;
+package com.tom.score;
 
 public class Student {
     String name;
