@@ -44,9 +44,9 @@ public class Tester {
                 ticket = new Ticket(start, destination);
                 break;
             case 2:
-                ticket = new Ticket(start, destination);
+                ticket = new StudentTicket(start, destination);
                 break;
         }
-
+        ticket.print();
     }
 }
