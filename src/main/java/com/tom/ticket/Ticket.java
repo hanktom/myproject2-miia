@@ -11,6 +11,7 @@ public class Ticket {
     public Ticket(Station start, Station destination) {
         this.start = start;
         this.destination = destination;
+
     }
 
     public void print() {
