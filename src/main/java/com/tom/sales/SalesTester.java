@@ -24,7 +24,7 @@ public class SalesTester {
         customers.add(new GoldenCustomer("0004", 5000));
         customers.add(new DiscountCustomer("0006", 900));
         for (int i = 0; i < 5; i++) {
-            customers.get(i).print();
+//            customers.get(i).print();
         }
         for (Customer c: customers) {
             c.print();
