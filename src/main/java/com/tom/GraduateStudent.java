@@ -1,4 +1,6 @@
-package com.tom.score;
+package com.tom;
+
+import com.tom.score.Student;
 
 public class GraduateStudent extends Student {
     int thesis;

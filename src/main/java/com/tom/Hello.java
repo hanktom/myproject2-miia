@@ -1,16 +1,13 @@
 package com.tom;
 
-import java.util.ArrayList;
-import java.util.List;
+import com.tom.score.Student;
 
 public class Hello {
     public static void main(String[] args) {
-
-
-
         int diff = Math.abs(100-300);
         System.out.println(diff);
-
         System.out.println("Hello world!");
+        Student stu = new Student();
+//        System.out.println(stu.name);
     }
 }

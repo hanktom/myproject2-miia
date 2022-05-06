@@ -1,5 +1,7 @@
 package com.tom.score;
 
+import com.tom.GraduateStudent;
+
 import java.util.ArrayList;
 import java.util.List;
 
