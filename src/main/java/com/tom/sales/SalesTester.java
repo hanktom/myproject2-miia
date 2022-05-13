@@ -14,7 +14,7 @@ import java.util.List;
 //  0003  2000  1800(200)  <--銀級客戶
 /*
     父類別的參照可以放 子類別所產生的物件
- */
+*/
 public class SalesTester {
     public static void main(String[] args) {
         List<Customer> customers = new ArrayList<>();
