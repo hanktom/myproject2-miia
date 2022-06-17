@@ -11,13 +11,16 @@ public class Scoring {
         Student hank = new Student("Hank", 60, 30);
         GraduateStudent jane =
                 new GraduateStudent("Jane", 65, 82, 79);
-        List<Student> students = new ArrayList<>();
+        jack.print();
+        hank.print();
+        jane.print();
+        /*List<Student> students = new ArrayList<>();
         students.add(jack);
         students.add(hank);
         students.add(jane);
         for (int i=0; i<students.size(); i++) {
             Student stu = students.get(i);
             stu.print();
-        }
+        }*/
     }
 }

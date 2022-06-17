@@ -13,6 +13,7 @@ public class Student implements Printable {
         //        this.name = name;
         this.english = english;
         this.math = math;
+        System.out.println("Test");
     }
     public Student() {
         this("John Doe", -1, -1);
